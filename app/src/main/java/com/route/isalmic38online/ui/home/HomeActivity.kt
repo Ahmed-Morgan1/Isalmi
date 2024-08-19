@@ -1,5 +1,6 @@
 package com.route.isalmic38online.ui.home
 
+import TasbehFragment
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -10,7 +11,6 @@ import com.route.isalmic38online.databinding.ActivityHomeBinding
 import com.route.isalmic38online.ui.home.tabs.hadith.HadithFragment
 import com.route.isalmic38online.ui.home.tabs.quran.QuranFragment
 import com.route.isalmic38online.ui.home.tabs.radio.RadioFragment
-import com.route.isalmic38online.ui.home.tabs.tasbeh.TasbehFragment
 
 class HomeActivity : AppCompatActivity() {
     lateinit var  binding : ActivityHomeBinding
